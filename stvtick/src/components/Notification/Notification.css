@@ -1,0 +1,41 @@
+.notification {
+    z-index: 999;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #555555b1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.notification-content {
+    margin: 10px;
+    color: #000000;
+}
+
+.notification-content h3 {
+    margin-bottom: 2em;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+}
+
+.notification.slide-in {
+    transform: translateX(0);
+}
+
+.notification.slide-out {
+    transform: translateX(100%);
+}
