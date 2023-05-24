@@ -246,14 +246,14 @@ textarea:valid~label{
   }
   .contact-div .left{
     margin-top: 2em;
-    padding: 0 4em;
-    width: 80%;
+    padding: 0 1em;
+    width: 90%;
     max-width: none;
   }
   .contact-div .right{
     margin-top: 6em;
-    padding: 0 4em;
-    width: 80%;
+    padding: 0 1em;
+    width: 90%;
   }
   .text h1{
     margin-top: 0.3em;
