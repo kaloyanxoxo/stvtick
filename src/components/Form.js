@@ -52,32 +52,32 @@ export const Form = () => {
 	}
 
     return (
-		<section class="contact" id="contact">
+		<section className="contact" id="contact">
 			{formSubmitted && <Notification title={title} description={description} />}
-			<div class="contact-div">
+			<div className="contact-div">
 				<div className="left">
 					<h1>Ask away</h1>
 					<h3>Feel free to ask anything. <br/><br/>General questions, quotes, turnaround times - you name it. We'll be sure to answer ASAP. </h3>
 				</div>
-				<div class="right">
+				<div className="right">
 					<form ref={formRef} onSubmit={submitForm}>
-						<div class="input-group">
+						<div className="input-group">
 							<input type="text" id="name" onChange={onFormChange} required />
 							<label for="name">Name*</label>
 						</div>
-						<div class="input-group">
+						<div className="input-group">
 							<input type="text" id="phone" onChange={onFormChange} required />
 							<label for="phone">Phone Number*</label>
 						</div>
-						<div class="input-group">
+						<div className="input-group">
 							<input type="email" id="email" onChange={onFormChange} required />
 							<label for="email">Email*</label>
 						</div>
-						<div class="input-group">
+						<div className="input-group">
 							<input type="text" id="subject" onChange={onFormChange} required />
 							<label for="subject">Subject*</label>
 						</div>
-						<div class="input-group">
+						<div className="input-group">
 							<textarea rows="8" id="message" onChange={onFormChange} required ></textarea>
 							<label for="message">Message*</label>
 						</div>
