@@ -27,7 +27,7 @@ export const Header = () => {
                 muted
                 loop
                 autoPlay
-                onLoadedData={onLoadedData}
+                onLoadedData={() => onLoadedData()}
                 style={{ opacity: isVideoLoaded ? 1 : 0 }}
             />
 
