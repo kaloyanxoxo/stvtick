@@ -43,6 +43,14 @@
   z-index: -1;
 }
 
+.showcase video::-webkit-media-controls {
+  display: none;
+}
+
+.showcase video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
 .overlay{
   position: absolute;
   top: 0;

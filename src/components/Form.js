@@ -63,23 +63,23 @@ export const Form = () => {
 					<form ref={formRef} onSubmit={submitForm}>
 						<div className="input-group">
 							<input type="text" id="name" onChange={onFormChange} required />
-							<label for="name">Name*</label>
+							<label htmlFor="name">Name*</label>
 						</div>
 						<div className="input-group">
 							<input type="text" id="phone" onChange={onFormChange} required />
-							<label for="phone">Phone Number*</label>
+							<label htmlFor="phone">Phone Number*</label>
 						</div>
 						<div className="input-group">
 							<input type="email" id="email" onChange={onFormChange} required />
-							<label for="email">Email*</label>
+							<label htmlFor="email">Email*</label>
 						</div>
 						<div className="input-group">
 							<input type="text" id="subject" onChange={onFormChange} required />
-							<label for="subject">Subject*</label>
+							<label htmlFor="subject">Subject*</label>
 						</div>
 						<div className="input-group">
 							<textarea rows="8" id="message" onChange={onFormChange} required ></textarea>
-							<label for="message">Message*</label>
+							<label htmlFor="message">Message*</label>
 						</div>
 						<button type="submit">SUBMIT</button>
 					</form>

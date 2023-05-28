@@ -8,7 +8,7 @@ export const Header = () => {
     const [isVideoLoaded, setIsVideoLoaded] = React.useState(false);
 
     const onLoadedData = () => {
-      setIsVideoLoaded(true);
+        setIsVideoLoaded(true);
     };
 
     return (
@@ -27,8 +27,7 @@ export const Header = () => {
                 muted
                 loop
                 autoPlay
-                playsInline
-                onLoadedData={() => onLoadedData()}
+                onLoadedData={onLoadedData}
                 style={{ opacity: isVideoLoaded ? 1 : 0 }}
             />
 
